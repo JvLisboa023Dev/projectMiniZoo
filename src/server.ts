@@ -21,4 +21,6 @@ server.use((req, res) => {
     res.render('pages/404');
 });
 
-server.listen(process.env.PORT);
+server.listen(process.env.PORT); {
+    console.log('server listening on port 3000');
+}
